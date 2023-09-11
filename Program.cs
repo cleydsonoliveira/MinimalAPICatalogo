@@ -12,6 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(connecti
 
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
